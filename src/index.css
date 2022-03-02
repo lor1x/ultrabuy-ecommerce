@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./styles/fonts.css";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.hide__dropdown {
+  transform: translateY(-100%);
+  opacity: 0;
+  z-index: -1;
+}
+.show__dropdown {
+  transform: translateY(0%);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* range slider styles */
+.rc-slider-handle {
+  width: 20px !important;
+  height: 20px !important;
+  background: #ffffff !important;
+  border: 1px solid #d1d1d1 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) !important;
+  transform: translateX(-50%) translateY(-15%) !important;
+}
+.rc-slider-rail {
+  height: 6px !important;
+  background: #ebebeb !important;
+  border-radius: 12px !important;
+}
