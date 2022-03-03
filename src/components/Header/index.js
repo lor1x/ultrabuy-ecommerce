@@ -176,7 +176,7 @@ const Header = () => {
         setShow={setCart}
         wrapperClass="sm:w-3/4 w-full max-w-md sm:rounded-lg sm:my-2 sm:right-1.5"
       >
-        <div className="w-full h-full bg-white px-4 py-8 flex flex-col">
+        <div className="w-full h-full bg-white px-4 py-8 flex flex-col rounded-lg">
           <div className="flex items-center justify-between mb-6">
             <h4 className="font-semibold text-2xl">Shopping cart</h4>
             <span className="flex items-center gap-1 text-sm text-c1">

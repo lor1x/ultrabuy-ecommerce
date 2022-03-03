@@ -26,11 +26,7 @@ const SideMenu = ({ show, setShow, children, wrapperClass }) => {
               onClick={() => setShow(false)}
             />
           </Transition.Child>
-          <div
-            className={
-              "fixed inset-y-0 right-0 flex z-40 border-2 " + wrapperClass
-            }
-          >
+          <div className={"fixed inset-y-0 right-0 flex z-40 " + wrapperClass}>
             <Transition.Child
               as={Fragment}
               enter="transform transition ease-in-out duration-500"
